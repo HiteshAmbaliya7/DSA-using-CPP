@@ -16,7 +16,7 @@ int linear_search(int arr[], int size, int terget)
 int main()
 {
    int arr[] = {4, 2, 7, 8, 1, 2, 5};
-   int terget = 50;
+   int terget = 5;
    int size = sizeof(arr) / sizeof(arr[0]);
    int result =linear_search(arr,size,terget);
    if(result!=-1){

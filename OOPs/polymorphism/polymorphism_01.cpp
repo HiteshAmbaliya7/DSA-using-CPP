@@ -1,5 +1,6 @@
 
 // Function overloding 
+// in other word function over loading is called polymorphism
 
 #include <bits/stdc++.h>
 using namespace std;

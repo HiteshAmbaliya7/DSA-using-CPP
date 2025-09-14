@@ -1,3 +1,4 @@
+// multiple inheritance 
 #include <bits/stdc++.h>
 using namespace std;
 class student

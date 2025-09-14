@@ -1,3 +1,4 @@
+// multilavel inherantance 
 #include <bits/stdc++.h>
 using namespace std;
 class person{
@@ -5,11 +6,11 @@ class person{
         string name;
         int age;
 };
-class student :public person{
+class student :public person{       // person class inherit in student
     public:
     int rollno;
 };
-class gradstud :public student{
+class gradstud :public student{      // then student class inherit into gradstud 
     public:
     string resercharea;
 };

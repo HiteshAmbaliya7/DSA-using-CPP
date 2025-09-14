@@ -21,8 +21,10 @@ class person{
 };
 
 //  this is inherit class form person
+// it means we use data members of perent calss in chaild class without creating object of perentclass
 // child class 
-class student : public person{
+class student : public person        // single inheritance
+{
     public:
     int rollno;
         student(){
